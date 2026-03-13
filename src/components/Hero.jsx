@@ -29,7 +29,6 @@ export default function Hero() {
         <div className="stat"><h3>AI</h3><p>Current Focus</p></div>
         <div className="stat"><h3>∞</h3><p>Curiosity</p></div>
       </div>
-      </div>
     </section>
   );
 }
