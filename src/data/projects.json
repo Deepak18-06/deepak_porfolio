@@ -1,0 +1,34 @@
+[
+  {
+    "title": "AI Tutor Platform",
+    "desc": "Backend for an AI tutor app targeting students in classes 1–8. Built with Rails, OpenAI services, pgvector, and RAG-based content understanding.",
+    "tech": ["Rails", "OpenAI", "pgvector", "Sidekiq", "RAG"],
+    "status": "live",
+    "gradient": "linear-gradient(135deg, #1a1520, #0c1a18)",
+    "url": ""
+  },
+  {
+    "title": "Agent Rankings System",
+    "desc": "Precomputed agent ranking engine using SQL window functions (ROW_NUMBER, RANK, DENSE_RANK) with background job refresh cycles.",
+    "tech": ["Rails", "PostgreSQL", "SQL", "Sidekiq"],
+    "status": "live",
+    "gradient": "linear-gradient(135deg, #0d1520, #1a150d)",
+    "url": ""
+  },
+  {
+    "title": "Payroll Architecture",
+    "desc": "End-to-end payroll system with CSV/Excel parsing, currency handling, invoice models, and financial data pipelines.",
+    "tech": ["Rails", "PostgreSQL", "CSV/Excel", "RSpec"],
+    "status": "live",
+    "gradient": "linear-gradient(135deg, #150d1a, #0d1a15)",
+    "url": ""
+  },
+  {
+    "title": "Monorepo Product (WIP)",
+    "desc": "New product with separate frontend/backend in a monorepo, leveraging Claude Code with optimized CLAUDE.md files.",
+    "tech": ["Rails", "React", "Claude Code", "Monorepo"],
+    "status": "wip",
+    "gradient": "linear-gradient(135deg, #1a1a0d, #0d151a)",
+    "url": ""
+  }
+]

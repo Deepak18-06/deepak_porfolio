@@ -1,8 +1,8 @@
 import Reveal from './Reveal';
-import { TESTIMONIALS } from '../data/content';
+import VOICES from '../data/voices.json';
 
 // Tripled to create a seamless infinite scroll loop.
-const items = [...TESTIMONIALS, ...TESTIMONIALS, ...TESTIMONIALS];
+const items = [...VOICES, ...VOICES, ...VOICES];
 
 export default function Testimonials() {
   return (

@@ -1,5 +1,5 @@
 import Reveal from './Reveal';
-import { PROJECTS } from '../data/content';
+import PROJECTS from '../data/projects.json';
 
 const STATUS_LABEL = {
   live: '● Production',
@@ -33,6 +33,11 @@ export default function Projects() {
                 <div className="project-tech">
                   {project.tech.map((t, j) => <span key={j}>{t}</span>)}
                 </div>
+                {project.url && (
+                  <a className="project-link" href={project.url} target="_blank" rel="noopener noreferrer">
+                    View project →
+                  </a>
+                )}
               </div>
             </div>
           </Reveal>

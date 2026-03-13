@@ -1,5 +1,5 @@
 import Reveal from './Reveal';
-import { ARTICLES } from '../data/content';
+import ARTICLES from '../data/articles.json';
 
 export default function Articles() {
   return (
@@ -21,7 +21,10 @@ export default function Articles() {
               </div>
               <h3>{article.title}</h3>
               <p>{article.desc}</p>
-              <span className="article-read">Read more →</span>
+              {article.url
+                ? <a className="article-read" href={article.url} target="_blank" rel="noopener noreferrer">Read more →</a>
+                : <span className="article-read">Read more →</span>
+              }
             </div>
           </Reveal>
         ))}

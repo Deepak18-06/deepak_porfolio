@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Team Lead",
+    "role": "Shuru Tech",
+    "quote": "Deepak consistently delivers clean, well-tested code. His database optimization skills have significantly improved our query performance across the board.",
+    "initials": "TL",
+    "url": ""
+  },
+  {
+    "name": "Senior Developer",
+    "role": "Colleague",
+    "quote": "Working with Deepak on the payroll system was great. He has a keen eye for edge cases and writes thorough RSpec tests that catch issues early.",
+    "initials": "SD",
+    "url": ""
+  },
+  {
+    "name": "Product Manager",
+    "role": "Shuru Tech",
+    "quote": "Deepak's work on the AI tutor backend exceeded our expectations. He architected the RAG pipeline thoughtfully and delivered ahead of schedule.",
+    "initials": "PM",
+    "url": ""
+  },
+  {
+    "name": "Engineering Peer",
+    "role": "Collaborator",
+    "quote": "His understanding of PostgreSQL and ClickHouse is impressive. He migrated complex queries between the two with minimal downtime.",
+    "initials": "EP",
+    "url": ""
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Understanding SOLID Principles in Ruby",
+    "desc": "A deep dive into all five SOLID principles with practical Ruby examples and real-world patterns.",
+    "category": "Ruby",
+    "date": "2025",
+    "url": ""
+  },
+  {
+    "title": "SQL Window Functions: A Practical Guide",
+    "desc": "How ROW_NUMBER, RANK, and DENSE_RANK work and when to use each in production ranking systems.",
+    "category": "SQL",
+    "date": "2025",
+    "url": ""
+  },
+  {
+    "title": "Structuring CLAUDE.md for Better AI Output",
+    "desc": "Lessons learned optimizing Claude Code configuration files to minimize tokens and maximize code quality.",
+    "category": "AI Tooling",
+    "date": "2025",
+    "url": ""
+  },
+  {
+    "title": "Ruby Class Hierarchy Deep Dive",
+    "desc": "Navigating instance variables, class instance variables, and class variables in Ruby inheritance chains.",
+    "category": "Ruby",
+    "date": "2025",
+    "url": ""
+  }
+]
